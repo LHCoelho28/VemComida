@@ -23,7 +23,6 @@ const restaurants = [
         preco: "R$ 20,00",
         apartir:"A partir de:"
     },
-    // Adicione mais restaurantes aqui
     { 
         name: "LOS HERMANOS", 
         cuisine: "Comida Mexicana",
