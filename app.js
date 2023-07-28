@@ -1,4 +1,4 @@
-// Exemplo de lista de restaurantes (simulação de dados do banco de dados)
+
 // Exemplo de lista de restaurantes (simulação de dados do banco de dados)
 
 const restaurants = [
@@ -46,7 +46,7 @@ const restaurants = [
         apartir:"A partir de:"
     },
 ];
- 
+
 function searchRestaurants() {
     const searchInput = document.getElementById("search-input").value.toLowerCase();
     const restaurantListDiv = document.getElementById("restaurant-list");
@@ -54,6 +54,10 @@ function searchRestaurants() {
     if (searchInput === '') {
         restaurantListDiv.innerHTML = "<h5>Por favor, digite algo para buscar.</h5>";
         return; // Retorna para interromper a função se o campo de busca estiver vazio
+    }
+    if(searchInput === "comida"){
+        restaurantListDiv.innerHTML= "<h5>Especifique sua pesquisa.</h5>";
+        return;
     }
 
     // Função para remover acentos diacríticos de uma string
