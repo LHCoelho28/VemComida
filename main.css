@@ -55,19 +55,19 @@ button:hover {
 }
 
 #restaurant-list h2 {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
     color: red;
-    font-size: 40px;
+    font-size: 38px;
     
 }
 
 #restaurant-list p {
-    margin:3px;
+    margin:1px;
     font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 29px;
     color: #7c0000;
 
 
@@ -81,7 +81,7 @@ button:hover {
     position: absolute; /* Posiciona o título de forma absoluta */
     top: 50%; /* Move o título 50% para baixo em relação ao contêiner pai */
     right: 0; /* Posiciona o título no lado direito */
-    transform: translate(-310%, 140%); /* Move o título para o centro verticalmente */
+    transform: translate(-340%, 140%); /* Move o título para o centro verticalmente */
 }
 #restaurant-list h3::before {
     content: ''; /* Adiciona o conteúdo do pseudoelemento (neste caso, uma caixa de fundo) */
@@ -106,12 +106,12 @@ button:hover {
     position: absolute; /* Posiciona o título de forma absoluta */
     top: 50%; /* Move o título 50% para baixo em relação ao contêiner pai */
     right: 0; /* Posiciona o título no lado direito */
-    transform: translate(-400%, 50%); /* Move o título para o centro verticalmente */
+    transform: translate(-435%, 50%); /* Move o título para o centro verticalmente */
 }
 
 #restaurant-list img {
     width: 70vw; /* Define a largura da imagem como 70% da largura da tela (viewport width) */
-    max-width: 570px; /* Define a largura máxima da imagem para 570 pixels */
+    max-width: 480px; /* Define a largura máxima da imagem para 570 pixels */
     height: auto; /* Permite que a altura da imagem seja ajustada proporcionalmente à largura */
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
     border: 3px solid #ff9100; /* Borda da caixa */
@@ -126,31 +126,6 @@ button:hover {
     text-align: center;
     transform: translate(0%, 700%);
 }
-/* Estilos para telas menores ou dispositivos móveis */
-@media (max-width: 768px) {
-    #restaurant-list h3 {
-        position: relative;
-        top: 0;
-        right: 0;
-        transform: none;
-        text-align: center;
-    }
 
-    #restaurant-list h3::before {
-        position: relative;
-        top: 0;
-        right: 0;
-        transform: none;
-        margin: 0 auto;
-    }
-
-    #restaurant-list h4 {
-        position: relative;
-        top: 0;
-        right: 0;
-        transform: none;
-        text-align: center;
-    }
-}
 
   
